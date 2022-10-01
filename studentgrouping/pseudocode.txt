@@ -1,0 +1,73 @@
+// main.cpp
+
+// run make_groups() function
+
+
+
+// func.cpp
+
+// get_size
+  // prompts the user to give desired group sizes and stores it in variable
+
+// read_csv
+  // reads from TeamFormation.csv and adds to the teamf map where the keys are the usernames and the values are all the data associated with the usernames
+
+// in_group
+  // nested for-loops that iterate through every member of every group
+  // returns true if a member = the given username
+
+// dont_want
+  // for loop that goes through all the usernames in the given group vector and checks through the map if the given student has them listed in do not join section (returns true if not)
+
+// skill_balance
+  // checks if a student is advanced (5) at any subject (returns true if not)
+  // iterates through the usernames in the given group vector and iterates through the map to see if any of them are advanced in the same subject as the given student (returns true if not)
+
+// want
+  // for loop that goes through all the usernames in the given group vector and checks through the map if the given student has them listed in want to join section (returns true if not)
+
+// assign_groups
+  // iterates through each student in the teamf map and assign them to a group
+  // iterates through all groups in the groups map (size of map depends on size of groups picked by user)
+  // if the group returns true for dont_want, skill_balance, and want, add username to group
+  // if none qualify, check if each group returns true for dont_want and skill_balance
+  // if none qualify, check if each group returns true for dont_want and want
+  // if none qualify, check if each group returns true for want
+
+// get_score
+  // Iterates through the students in each group and scores each of the three subjects for the groups by adding up their self-reported scores before adding the scores for each individual subject and the overall scores to the group map
+
+// output_txt
+  // output group map data to new txt file
+
+// search
+  // prompts the user to enter a username to search
+  // iterates through group map until username is found
+  // displays student's group
+
+// make_groups
+  // runs the program
+  // map <string, vector<string>> teamf; -> Allows me to call all of a student's survey answers at once with their username.
+
+  // map <string, vector<string>> groups; -> Allows me to get all of the students in a group with just the group number.
+
+  // string size;
+
+  // get_size(size);
+
+  // read_csv(teamf);
+
+  // assign_groups(teamf, groups);
+
+  // get_score(groups);
+
+  // output_txt(groups);
+
+  // search(search);
+
+
+
+
+// func.hpp
+
+// defines all the functions

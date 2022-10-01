@@ -1,0 +1,6 @@
+Group 1: Alex.n Andr.y Anna.i Ben.h Bran.n Chen.o 16 15 10 41 
+Group 2: Arit.n Fedo.g Gabr.e Gran.e Jack.n Jack.y 18 17 16 51 
+Group 3: Jayv.u Josh.e Khal.o Kyle.y Mary.y Mia.m 12 12 18 42 
+Group 4: Mara.k Mitc.y Ning.n Rahu.a Spen.r Veve.e 17 12 17 46 
+Group 5: Sunn.p Thom.i Zach.h Tany.n Yu-T.e 11 9 20 40 
+
